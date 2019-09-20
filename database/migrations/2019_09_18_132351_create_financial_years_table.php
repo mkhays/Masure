@@ -19,8 +19,10 @@ class CreateFinancialYearsTable extends Migration
             $table->string('name');
             $table->string('start_date');
             $table->string('end_date');
-            $table->string('theme');
-            $table->string('color');
+            $table->string('theme')->nullable();
+            $table->string('color')->nullable();
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
 
 
         });

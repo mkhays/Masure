@@ -18,6 +18,8 @@ class CreateLeaveTypesTable extends Migration
             $table->timestamps();
             $table->string('name');
             $table->float('number_of_days');
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
         });
     }
 

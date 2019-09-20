@@ -19,11 +19,13 @@ class CreateLeaveInstancesTable extends Migration
             $table->string('name');
             $table->integer('financial_year_id');
             $table->integer('user_id');
-            $table->integer('created_by');
-            $table->integer('last_updated_by');
-            $table->dateTime('last_update_date');
+            $table->integer('created_by')->nullable();
+            $table->integer('last_updated_by')->nullable();
+            $table->dateTime('last_update_date')->nullable();
             $table->integer('leave_type');
             $table->float('leave_balance');
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
 
         });
     }

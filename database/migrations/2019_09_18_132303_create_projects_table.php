@@ -17,9 +17,11 @@ class CreateProjectsTable extends Migration
             $table->bigIncrements('id');
             $table->timestamps();
             $table->string('name');
-            $table->string('description');
+            $table->string('description')->nullable();
             $table->boolean('status');
             $table->integer('donor');
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
         });
     }
 

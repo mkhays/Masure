@@ -19,6 +19,8 @@ class CreatePositionsTable extends Migration
             $table->string('title');
             $table->string('description');
             $table->boolean('status');
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by');
         });
     }
 

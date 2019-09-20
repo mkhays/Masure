@@ -18,6 +18,8 @@ class CreateDistrictsTable extends Migration
             $table->timestamps();
             $table->string('name');
             $table->integer('region_id');
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
         });
     }
 

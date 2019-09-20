@@ -19,9 +19,11 @@ class CreateLeaveSchedulesTable extends Migration
             $table->integer('user_id');
             $table->mediumText('schedule_dates');
             $table->integer('status');
-            $table->integer('reviewed_by');
-            $table->dateTime('review_date');
+            $table->integer('reviewed_by')->nullable();
+            $table->dateTime('review_date')->nullable();
             $table->integer('finacial_year');
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
         });
     }
 

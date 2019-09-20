@@ -17,10 +17,12 @@ class CreatePublicHolidaysTable extends Migration
             $table->bigIncrements('id');
             $table->timestamps();
             $table->string('name');
-            $table->string('description');
+            $table->string('description')->nullable();
             $table->date('pdate');
             $table->year('year');
-            $table->string('color');
+            $table->string('color')->nullable();
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
         });
     }
 

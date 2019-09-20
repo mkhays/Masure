@@ -18,6 +18,8 @@ class CreateSettingsTable extends Migration
             $table->timestamps();
             $table->string('name');
             $table->integer('status');
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
         });
     }
 

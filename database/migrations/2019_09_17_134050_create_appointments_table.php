@@ -25,6 +25,8 @@ class CreateAppointmentsTable extends Migration
             $table->tinyInteger('staff_level');
             $table->integer('duty_station');
             $table->integer('department');
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
         });
     }
 

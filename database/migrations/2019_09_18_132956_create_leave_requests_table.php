@@ -21,21 +21,23 @@ class CreateLeaveRequestsTable extends Migration
             $table->string('leave_dates');
             $table->float('leave_days');
             $table->dateTime('leave_request_date');
-            $table->string('leave_comment');
+            $table->string('leave_comment')->nullable();
             $table->integer('status');
-            $table->string('supervisor_comment');
-            $table->string('hr_comment');
-            $table->integer('supervisor_review');
-            $table->integer('hr_review');
-            $table->dateTime('supervisor_review_date');
-            $table->dateTime('hr_review_Date');
-            $table->integer('created_by');
-            $table->string('attachment_link');
-            $table->integer('delegatee');
+            $table->string('supervisor_comment')->nullable();
+            $table->string('hr_comment')->nullable();
+            $table->integer('supervisor_review')->nullable();
+            $table->integer('hr_review')->nullable();
+            $table->dateTime('supervisor_review_date')->nullable();
+            $table->dateTime('hr_review_Date')->nullable();
+            $table->integer('created_by')->nullable();
+            $table->string('attachment_link')->nullable();
+            $table->integer('delegatee')->nullable();
             $table->integer('finacial_year');
-            $table->integer('supervisor_id');
-            $table->integer('hr_id');
-            $table->longText('general_notes');
+            $table->integer('supervisor_id')->nullable();
+            $table->integer('hr_id')->nullable();
+            $table->longText('general_notes')->nullable();
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
         });
     }
 

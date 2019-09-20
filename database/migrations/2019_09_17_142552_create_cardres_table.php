@@ -18,6 +18,8 @@ class CreateCardresTable extends Migration
             $table->timestamps();
             $table->string('title');
             $table->string('description');
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
         });
     }
 

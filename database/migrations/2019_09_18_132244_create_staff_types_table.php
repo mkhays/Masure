@@ -18,6 +18,8 @@ class CreateStaffTypesTable extends Migration
             $table->timestamps();
             $table->string('name');
             $table->integer('probation_months');
+            $table->integer('created_by')->nullable();
+            $table->integer('modified_by')->nullable();
         });
     }
 
