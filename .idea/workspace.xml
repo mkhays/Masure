@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9adb37c8-bb7f-4f42-be83-686fccbc183a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/administerDatabaseLists.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9adb37c8-bb7f-4f42-be83-686fccbc183a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,7 +242,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,6 +306,7 @@
       <workItem from="1574324002288" duration="835000" />
       <workItem from="1574325130652" duration="5129000" />
       <workItem from="1574369655901" duration="25000" />
+      <workItem from="1574374395535" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="First Git Commit">
       <created>1568817439790</created>
@@ -321,7 +319,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66213000" />
+    <option name="totallyTimeSpent" value="66458000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,7 +333,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19676113" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -348,7 +346,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49959514" weight="0.3285968" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49392712" visible="true" weight="0.22912966" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49392712" visible="true" weight="0.44582593" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5060729" side_tool="true" weight="0.19360569" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
