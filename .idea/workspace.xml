@@ -202,7 +202,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
+    <option name="x" value="9" />
     <option name="width" value="1920" />
     <option name="height" value="1020" />
   </component>
@@ -249,6 +249,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hrmx" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
